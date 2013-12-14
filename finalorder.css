@@ -1,0 +1,56 @@
+ @media screen {
+    img {max-width:80%;}	
+    	 body {
+    	 
+ 	background-image:url(sb.jpg);
+ 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+} 
+    	#header {clear:both; float: left;padding-left:4px;margin-bottom:5px; margin-right:0; background-color:#00;border:1px solid #fff; width:100%;}
+    	#foot {clear:both; float: left;margin:1em; padding:1em;margin-left:0;margin-bottom:0; margin-right:0; background-color:#00;border:1px solid #fff; width:15%;}
+    	.farright {clear:both;float: left; margin: 1em;margin-left:0; margin-top:0;padding:1em;}     	
+ 
+  
+
+  
+  
+label {
+	display:inline-block;
+	width: 150px;
+}
+		
+.horizontal {
+       display: inline;
+list-style-type: none;
+padding-top: 100px;
+}		
+
+
+
+.farright {
+float:left;
+}
+
+
+ 
+     }
+     
+ 
+ 
+@media screen and (min-width:700px) {
+	#pbb { float: left; margin-left:0; margin:1%; padding:1%; background-color:#fff;width:23%;}
+     #sb {float: left; margin:1%; padding:1%; background-color:#fff;width:27%;}
+     #cd {float: left; margin:1%;margin-right:0; padding:1%; background-color:#fff;width:31%;clear:right;}
+  
+  
+   }
+   
+@media screen and (min-width:1000px) {
+	#pbb { float: left; margin-left:0; margin:1%; padding:1%; background-color:#fff;width:26%;}
+     	#sb {float: left; margin:1%; padding:1%; background-color:#fff;width:23%;}
+     	#cd {float: left; margin:1%;margin-right:0; padding:1%; background-color:#fff;width:30%;clear:right;}
+}
+     	

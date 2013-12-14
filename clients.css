@@ -1,0 +1,63 @@
+ body {
+ 	
+ 	color:white;
+ 	background-image:url(sb.jpg);
+ 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+} 
+
+  @media screen { 
+
+img {max-width:40%;max-height:40%}
+  .section {
+ display: -webkit-flex;
+ -webkit-flex-direction:row; 
+ -webkit-flex-wrap:wrap;
+ }
+#header {clear:both; float: left;padding-left:4px;margin-bottom:5px; margin-right:0; background-color:#00;border:1px solid #fff; width:100%;}
+#footer {clear:both; float: left;margin:1em; padding:1em;margin-left:0;margin-bottom:0; margin-right:0; background-color:#00;border:1px solid #fff; width:15%;}
+ 
+ label {
+		display:inline-block;
+		width: 150px;
+		}
+ 
+
+ }
+ 
+  @media only screen and (min-width:500px) {
+  
+@-webkit-keyframes mango	 {
+  0% {-webkit-transform: translate(150%,-70%)  rotateY(180deg);}
+  50% {-webkit-transform: translate(150%,-70%) rotateY(0deg);}
+  100% {-webkit-transform: translate(150%,-70%)  rotateY(180deg);}
+	
+	} 
+  
+  
+#mango{
+ position: relative;
+  -webkit-animation: mango 3s ease infinite alternate,
+  rotate 3s alternate;
+}
+
+
+#grow:hover {
+    color:yellow;
+    background-color:orange;
+    box-shadow: 10px 10px 5px green;
+    max-width:35%;
+
+
+    
+}
+  }
+  
+  @media only screen and (min-width:900px) {
+  
+  }
+  
+   .smoothtitle {color:#000;}
