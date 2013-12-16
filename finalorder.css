@@ -96,12 +96,9 @@ label {
 }
 		
 .horizontal {
-       display: inline;
 list-style-type: none;
 padding-top: 100px;
 }		
-
-#sbbutton {display:inline;}
 
 .farright {
 float:left;width:200px;
@@ -117,7 +114,8 @@ float:left;width:200px;
 	#pbb { float: left; margin-left:0; margin:1%; padding:1%; background-color:#fff;width:23%;}
      #sb {float: left; margin:1%; padding:1%; background-color:#fff;width:27%;}
      #cd {float: left; margin:1%;margin-right:0; padding:1%; background-color:#fff;width:31%;clear:right;}
-  
+ 	 .horizontal li {display:inline-block;
+	width:30%;}
   
    }
    
@@ -127,5 +125,8 @@ float:left;width:200px;
      	#cd {float: left; margin:1%;margin-right:0; padding:1%; background-color:#fff;width:30%;clear:right;}
      	.section{display:inline;}
      	.{display:inline;}
+.horizontal li {display:inline-block;
+width:30%;}
+
 }
      	
