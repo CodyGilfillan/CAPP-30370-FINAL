@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-/* Starter CSS for Flyout Menu */
+/* This menu was taken from http://cssmenumaker.com/ */
 #cssmenu,
 #cssmenu ul,
 #cssmenu li #cssmenu a {
@@ -67,6 +67,8 @@ width: 290px;
 
  @media screen {
     img {max-width:80%;}	
+    	
+/*background photo*/    	
     	 body {  	 
  	background-image:url(sb.jpg);
  	-webkit-background-size: cover;
@@ -99,7 +101,7 @@ list-style-type: none;
 padding-top: 100px;
 }		
 
-
+#sbbutton {display:inline;}
 
 .farright {
 float:left;width:200px;

@@ -13,7 +13,7 @@
 			<nav role="navigation" class="nav" id='cssmenu'>
    			<ul>
    				<li class='active'><a href="finalproject.html"><span>Home</span></a></li>
- 				<li><a href="clients.html"><span>Menu</span></a></li>
+ 				<li><a href="menu.html"><span>Menu</span></a></li>
   				<li><a href="finalorder.html"><span>Order Now!</span></a></li>
 			</ul>
    			</nav>
@@ -21,17 +21,17 @@
 <main role="main">
 	<form class="orderform">
 				<p>
-	 				<label for="name">Name:</label>
+	 				<label>Name:</label>
 	 				<input type="text" name="name">
 	 			</p>
 		 		<p>
-					<label for="phone">Phone Number : </label>
+					<label>Phone Number : </label>
 					<input type="tel" name="phone">
 				</p>
 			
 			
 				<p>
-					<label for="Delivery">Delivery Time:</label>
+					<label>Delivery Time:</label>
 						<select type="list" name="Delivery"> 
 							<option>Delivery Time</option>
 								<option value="10:00-midnight"> 10:00PM </option>
@@ -40,10 +40,10 @@
 								<option value="10:00-midnight"> 11:30PM </option>
 								<option value="10:00-midnight"> Midnight </option>
 						</select>
-				<p/>
+				</p>
 		
 				<p>
-					<label for="dorm">Dorm:</label>
+					<label>Dorm:</label>
 						<select type="list" name="Delivery"> 
 							<option>Dorm</option>
 							<option value="north quad"> Pasquerilla East </option>
@@ -54,29 +54,29 @@
 							<option value="north quad"> Lyons </option>
 							<option value="north quad"> Farley </option>
 						</select>
-				<p/>		
+				</p>		
 						
-				<label for="radio">Smoothie Type:</label>	
+				<label>Smoothie Type:</label>	
 				<div>	
 					<ul class="horizontal">
-						<li><input type="radio" class="type" name="ordertype" value="sb.jpg">Peanut Butter Banana</li>
-							<img class="section img" id="pbb" src="pbb.jpg" alt="Peanut Butter Banana">
-						<li><input type="radio" class="type" name="ordertype" value="Peanut Butter Banana">Strawberry Banana</li>
-							<img class="section img" id="sb" src="strawberry.jpg" alt="Strawberry-Banana">
-						<li><input type="radio" class="type" name="ordertype" value="Chocolate Dream">Chocolate Dream</li>
-							<img class="section image" id="cd" src="chocolatedream.jpg" alt="Chocolate Dream">
+						<li><input type="radio" class="type" id="sbbutton" name="ordertype" value="sb.jpg">Peanut Butter Banana</li>
+						<li><input type="radio" class="type" id="pbbbutton" name="ordertype" value="Peanut Butter Banana">Strawberry Banana</li>
+						<li><input type="radio" class="type" id="cdbutton" name="ordertype" value="Chocolate Dream">Chocolate Dream</li>
 					</ul>
+						<img class="section img" id="pbb" src="pbb.jpg" alt="Peanut Butter Banana">
+						<img class="section img" id="sb" src="strawberry.jpg" alt="Strawberry-Banana">
+						<img class="section image" id="cd" src="chocolatedream.jpg" alt="Chocolate Dream">
 				</div>
 			
 				<p>
 						<input class="farright" id="my_button" type="submit" name="submit" value="Place Your Order">
-						<input class="farright" type="reset" id=my_reset"" value="Reset Order">
+						<input class="farright" type="reset" id="my_reset" value="Reset Order">
 				</p>			
 	</form>	
 </main>
 
 <footer id="foot" role="contentinfo">
-	<h4 align="left">&copy 2013 Smooth Move Smoothies. All Rights Reserved</h4>
+	<h4>&copy; 2013 Smooth Move Smoothies. All Rights Reserved</h4>
 			<div class="vcard">
 				<span class="given-name">Cody</span>
 				<abbr class="additional-name">P.</abbr>

@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-/* Starter CSS for Flyout Menu */
+/* This menu was taken from http://cssmenumaker.com/ */
 #cssmenu,
 #cssmenu ul,
 #cssmenu li #cssmenu a {
@@ -63,8 +63,12 @@
 }
 
 
- body {
- 	
+
+
+  @media screen { 
+
+body {
+ /*background photo*/	
  	color:white;
  	background-image:url(sb.jpg);
  	-webkit-background-size: cover;
@@ -74,15 +78,16 @@
 
 } 
 
-  @media screen { 
-
 img {max-width:40%;max-height:40%}
-  .section {
- display: -webkit-flex;
- -webkit-flex-direction:row; 
- -webkit-flex-wrap:wrap;
+
+.section {
+	 display: -webkit-flex;
+	 -webkit-flex-direction:row; 
+	 -webkit-flex-wrap:wrap;
  }
+ 
 .text {max-width:50%;} 
+
 #header {clear:both; float: left;padding-left:4px;margin-bottom:5px; margin-right:0; background-color:#00;border:1px solid #fff; width:100%;}
 #footer {clear:both; float: left;margin:1em; padding:1em;margin-left:0;margin-bottom:0; margin-right:0; background-color:#00;border:1px solid #fff; width:35%;}
  
@@ -92,7 +97,7 @@ img {max-width:40%;max-height:40%}
  label {
 		display:inline-block;
 		width: 150px;
-		}
+	}
  
 
  }
@@ -107,5 +112,4 @@ img {max-width:40%;max-height:40%}
    .text {max-width:60%;}
   #ordernow{font-size:90px;}
    .smoothtitle {color:#000;}
-
   }

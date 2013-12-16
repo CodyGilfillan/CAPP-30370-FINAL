@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-/* Starter CSS for Flyout Menu */
+/* This menu was taken from http://cssmenumaker.com/ */
 #cssmenu,
 #cssmenu ul,
 #cssmenu li #cssmenu a {
@@ -63,7 +63,10 @@
 }
 
 
+@media screen { 
+
 body {	
+/*background photo*/
  	color:white;
  	background-image:url(sb.jpg);
  	-webkit-background-size: cover;
@@ -72,14 +75,12 @@ body {
     background-size: cover;
 } 
 
-@media screen { 
-
 img {max-width:40%;max-height:40%}
   .section {
- display: -webkit-flex;
- -webkit-flex-direction:row; 
- -webkit-flex-wrap:wrap;
- }
+ 	display: -webkit-flex;
+	 -webkit-flex-direction:row; 
+	 -webkit-flex-wrap:wrap;
+	 }
 #header {clear:both; float: left;padding-left:4px;margin-bottom:5px; margin-right:0; background-color:#00;border:1px solid #fff; width:100%;}
 #footer {clear:both; float: left;margin:1em; padding:1em;margin-left:0;margin-bottom:0; margin-right:0; background-color:#00;border:1px solid #fff; width:40%;}
  
@@ -88,7 +89,11 @@ img {max-width:40%;max-height:40%}
 		width: 150px;
 	}
  
+ 
+#to-style{font-size:0px} 
+
 }
+
  
   @media only screen and (min-width:700px) {
  #grow:hover {
@@ -96,9 +101,9 @@ img {max-width:40%;max-height:40%}
     background-color:#cc0000;
     box-shadow: 10px 10px 5px yellow;
     max-width:100%;    
-}
+	}
 
-  }
+}
   
   @media only screen and (min-width:1000px) {
   
@@ -107,14 +112,13 @@ img {max-width:40%;max-height:40%}
   0% {-webkit-transform: translate(220%,-70%)  rotateY(180deg);}
   50% {-webkit-transform: translate(220%,-70%) rotateY(0deg);}
   100% {-webkit-transform: translate(220%,-70%)  rotateY(180deg);}
-	
 	} 
   
   
 #mango{
- position: relative;
-  -webkit-animation: mango 3s ease infinite alternate,
-  rotate 3s alternate;
+ 	position: relative;
+ 	-webkit-animation: mango 3s ease infinite alternate,
+  	rotate 3s alternate;
 }
 
 #grow:hover {
@@ -122,6 +126,7 @@ img {max-width:40%;max-height:40%}
     background-color:#cc0000;
     box-shadow: 10px 10px 5px orange;
     max-width:35%;    
+   -webkit-transform:scale(2); 
 
    .smoothtitle {color:#000;}
    

@@ -6,18 +6,18 @@ $('.section').on("click", function afterPic(){
     });
     
 $('h1, h2, h3, h4, h5, h6').on("click", function(){
-	console.log('text: ' + this.text);
-	console.log('color: ' + 'white');
-	console.log('font-size: ' + this.fontsize);
-    });    
+	console.log('text: ' + $( this ).css( 'fontFamily' ));
+	console.log('color: ' + $( this ).css( 'color' ));
+	console.log('font-size: ' +  $( this ).css( 'fontSize' ));
+    });     
     
     
 $(window).load(function() {
 	var $windowWidth = $(window).width();
-	console.log('width: ' + $windowWidth);   
+	console.log('browser width: ' + $windowWidth);   
 	});  
 	
 $(window).resize(function() {
 	var $windowWidth = $(window).width();
-	console.log('width: ' + $windowWidth);   
+	console.log('browser width: ' + $windowWidth);   
 	});  	
