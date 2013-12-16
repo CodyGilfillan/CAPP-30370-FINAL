@@ -3,6 +3,7 @@ CAPP-30370-FINAL
 My roommate and I ran a smoothie business out of our dorm's basement this past fall to make some money this past fall. We had been taking orders via physical order forms or text-ins, but we thought an online ordering system would be easier to track business. The purpose of this website is to do just that. Our website is designed to provide basic information about why we started the business, what goes into our smoothies, and how you can order them. 
 
 ##Breakpoints 
+-------------
 As suggested, I used 700px and 1000px as my breakpoints for tablet and desktop devices, respectively. The 3 pages I created for this website are: home, menu, and order now. 
 
 ### Home Page Breakpoints
@@ -20,6 +21,11 @@ On the "order now" page, I created a 3 column layout that corresponds to the 3 p
 ## CSS Animation on continuous loop
 
 For my continuous loop, I have a picture (mango.jpg) that spins horizontally indefinately. This is designed to draw attention to our new flavor, passion fruit, that is coming soon.
+
+## CSS Animation that Occurs on User Interaction
+
+On the tablet size (min 700px) and higher for the menu page, I created a CSS animation that changes the color scheme of the "COMING SOON >>>>> PASSION FRUIT" text when you hover over it. I thought this would help to get the customers excited about the new website.
+
 
 ## Background Image
 
